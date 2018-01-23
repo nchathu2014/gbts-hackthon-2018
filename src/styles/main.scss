@@ -1,0 +1,40 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.viro {
+  &-main {
+    &-container {
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  &-drawer {
+    z-index: 80 !important;
+    &-title {
+      background-color: red;
+      height: 57px;
+    }
+  }
+  &-header {
+    z-index: 1400 !important;
+    position: fixed !important;
+    &-title {
+      font-family: 'Supermercado One', cursive;
+    }
+  }
+  &-content {
+    background-color: #c5c5c5;
+    width: 100%;
+    height: 100%;
+    margin-left: 255px;
+  }
+  &-list {
+    &-item {
+      padding: 15px 25px;
+      border-top: 1px solid #c5c5c5;
+      margin: 0px;
+    }
+  }
+}

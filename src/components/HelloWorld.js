@@ -48,16 +48,63 @@ export default class viro extends React.Component {
                                 </p>
                             </AccordionItemBody>
                         </AccordionItem>
+
+
                         <AccordionItem>
                             <AccordionItemTitle>
-                                <p className="viro-list-item">Text</p>
+                                <p className="viro-list-item">Core Components</p>
                             </AccordionItemTitle>
                             <AccordionItemBody>
-                                <p>
-                                    Body content
-                                </p>
+                                <div>Modal</div>
+                                <div>Pano</div>
+                                <div>Plane</div>
+                                <div>Image</div>
+                                <div>View</div>
                             </AccordionItemBody>
                         </AccordionItem>
+
+                        <AccordionItem>
+                            <AccordionItemTitle>
+                                <p className="viro-list-item">VR Components</p>
+                            </AccordionItemTitle>
+                            <AccordionItemBody>
+                                <div>Box</div>
+                                <div>Cylinder</div>
+                                <div>CylindricalPanel</div>
+                                <div>Sphere</div>
+                                <div>Box</div>
+                                <div>Button</div>
+                            </AccordionItemBody>
+                        </AccordionItem>
+
+                        <AccordionItem>
+                            <AccordionItemTitle>
+                                <p className="viro-list-item">Lights</p>
+                            </AccordionItemTitle>
+                            <AccordionItemBody>
+                                <div>AmbientLight</div>
+                                <div>DirectionalLight</div>
+                                <div>PointLight</div>
+                                <div>SpotLight</div>
+                            </AccordionItemBody>
+                        </AccordionItem>
+
+
+                        <AccordionItem>
+                            <AccordionItemTitle>
+                                <p className="viro-list-item">Video</p>
+                            </AccordionItemTitle>
+                            <AccordionItemBody>
+                                <div>Video</div>
+                                <div>VideoControl</div>
+                                <div>VideoPano</div>
+                            </AccordionItemBody>
+                        </AccordionItem>
+
+                        <AccordionItem>
+                            <RaisedButton primary={true}  label="(+) Import External" fullWidth={true} />
+                        </AccordionItem>
+
                     </Accordion>
                 </Drawer>
                 <div className="viro-content">
